@@ -1,22 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Raleway&display=swap');
+
+body {
+    margin: 0px;
+}
+
 .logo {
     width: 150px;
 }
 
 nav {
-    border-bottom: 3px solid #000000;
+    border-bottom: 1px solid #000000;
     padding: 25px 100px;
     margin: 0px;
     display: flex;
-    gap: 20px;
+    gap: 70px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
 }
 
 a {
     text-decoration: none;
     color: #000000;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1 {
     padding: 50px 100px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
 }
 
 article {
@@ -24,11 +46,107 @@ article {
     gap: 200px;
 }
 
-.description {
+.order {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px 160px;
+    border: 3px solid #1428a0;
+    font-size: 20px;
+}
+
+.order:hover {
+    background-color: #1428a0;
+    color: #FFFFFF;
+}
+
+.price {
     width: 400px;
+    background-color: #d1e3ff;
+    padding: 10px 50px;
 }
 
 .s23 {
-    height: 500px;
+    height: 400px;
     margin-left: 100px;
+    padding: 40px;
+    border: 1px solid #000000;
+    border-radius: 2%;
+}
+
+#product {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 50px;
+}
+
+#middle-section {
+    display: flex;
+    gap: 100px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h4 {
+    font-size: 40px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.procon {
+    background-color: #d1e3ff;
+    margin-top: 70px;
+    margin-left: 100px;
+    padding: 15px 35px;
+    width: 600px;
+}
+
+.description {
+    margin-right: 100px;
+    margin-top: 20px;
+    width: 1200px;
+}
+
+#related {
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    padding: 30px 50px;
+    background-color: #d1e3ff;
+    margin-top: 0px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 30px;
+    background-color: #d1e3ff;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.extra1 {
+    text-align: center;
+}
+
+.extra2 {
+    height: 200px;
+}
+
+h6 {
+    font-size: 20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 120px;
+    font-size: 15px;
+    background-color: #1428a0;
+}
+
+.musts {
+    color: #FFFFFF;
+    text-decoration: none;
 }
